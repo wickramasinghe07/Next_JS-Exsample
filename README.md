@@ -57,6 +57,9 @@ Routing
 
     npx create-next-app@latest routing-demo
 
+-Nested Routes
+-Dynamic Routes
+
 
     
 

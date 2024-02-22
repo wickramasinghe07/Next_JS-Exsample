@@ -59,6 +59,7 @@ Routing
 
     -Nested Routes
     -Dynamic Routes
+    -Nested and Dynamic Routes
 
 
     

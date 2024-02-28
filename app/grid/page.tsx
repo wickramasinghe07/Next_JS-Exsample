@@ -7,7 +7,7 @@ const products = [
     button: "#",
     href: "#",
     imageSrc:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSRBIfZh8-Npwi4TmdCogfnEulsqiYEMqTVg&s",
+      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT34IawD3nXe7WNvnAEr1oiyI-KZOn6zpW7-UZgmvERDSoTYEjM",
     imageAlt: "",
   },
 
@@ -17,7 +17,7 @@ const products = [
     button: "#",
     href: "#",
     imageSrc:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSRBIfZh8-Npwi4TmdCogfnEulsqiYEMqTVg&s",
+      "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSh_XjeoX__fgxUnBU-L3dLjxCfjMSwnZ-YF6EuifhzZFl0DuBb",
     imageAlt: "",
   },
 
@@ -27,14 +27,14 @@ const products = [
     button: "#",
     href: "#",
     imageSrc:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSRBIfZh8-Npwi4TmdCogfnEulsqiYEMqTVg&s",
+      "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTrhDNY18bD5feY9VFd6aqlo1eGC3tE7ZCNBvcVb6ZuJPMYd1oi",
     imageAlt: "",
   },
 ];
 
-export default function Grids() {
+export default function Case() {
   return (
-    <div className="mx-auto bg-white bg-opacity-80 border border-black border-opacity-80 p-60 text-3xl text-center ">
+    <div className="p-64 mx-auto bg-white bg-opacity-80 border border-black border-opacity-80  text-3xl text-center ">
       <div className="bg-black bg-opacity-80 border border-black border-opacity-80 p-20 text-3xl text-center ">
         NavBar
       </div>
@@ -46,26 +46,25 @@ export default function Grids() {
         1
       </div>
 
-      {/* My task is to create a grid of case studies   */}
-      {/*I use the grid component to crate a grid of case studies*/}
-
-      <div className="mt-[-86px] sm:px-auto sm:py-40">
-        <h2 className=" text-3xl font-outfit font-bold tracking-tight text-gray-900 sm:text-4xl mx-auto max-w-2xl sm:text-center">
-          Case Studies
-        </h2>
-        <p className=" font-outfit mt-8 text-lg leading-8 text-gray-600 mx-auto max-w-2xl sm:text-center">
+      <div className="bg-white">
+        <h1 className="lg:text-2xl md:text-xl text-gray-900 text-center font-bold tracking-tight sm:text-6xl">
+          {" "}
+          Case Studies{" "}
+        </h1>
+        <p className="lg:text-2xl md:text-xl text-gray-600 text-center  text-lg leading-8 sm:text-6xl mt-16">
+          {" "}
           Exploring Real-World Success Stories: How SusDev-OS Drives
           Environmental Impact and Sustainability{" "}
         </p>
 
-        <div className=" flex h-screen items-center justify-center mt-[-200px] grid-cols-1 gap-x-5 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8 sm:text-center ">
+        <div className="grid grid-cols-auto sm:grid-cols-auto lg:grid-cols-3 gap-4 justify-center mt-16">
           {products.map((product) => (
             <div key={product.id} className="group relative">
-              <div className="mx-auto aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-auto lg:h-75">
+              <div className="bg-black justify-center aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md lg:aspect-none group-hover:opacity-auto lg:h-75 ">
                 <img
                   src={product.imageSrc}
                   alt={product.imageAlt}
-                  className=" md:h-full md:w-48 lg:h-64 lg:w-64 object-center"
+                  className="md:h-full md:w-full lg:h-64 lg:w-64 object-center"
                 />
               </div>
 
@@ -77,15 +76,10 @@ export default function Grids() {
                       {product.name}
                     </a>
                   </h3>
-                  <p className="mt-10 text-sm text-gray-500  font-bold "></p>
                 </div>
-                <p className=" text-sm font-medium text-gray-900  "></p>
+                <p className=" text-sm text-gray-900 font-medium "></p>
                 <div>
-                  <button
-                    className="flex-none w-32 h-10 mt-6 block rounded-md px-3 py-2 text-center text-sm font-semibold text-black shadow-sm hover:bg-white focus-visible:outline
-                 focus-visible:outline-2 focus-visible:outline-offset-2"
-                  >
-                    {" "}
+                  <button className=" bg-white flex-none w-32 h-10 mt-6 block rounded-md px-3 py-2 text-center text-sm font-semibold text-black shadow-sm hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">
                     Read More{" "}
                   </button>
                 </div>
@@ -93,14 +87,10 @@ export default function Grids() {
             </div>
           ))}
         </div>
-      </div>
 
-      <div className="bg-black mt-[-200px] bg-opacity-80 border border-black border-opacity-80 p-20 text-3xl text-center">
-        3
-      </div>
-
-      <div className="bg-black bg-opacity-80 border border-black border-opacity-80 p-20 text-3xl text-center">
-        Footer
+        <div className="bg-black bg-opacity-80 border border-black border-opacity-80 p-20 text-3xl text-center">
+          Footer
+        </div>
       </div>
     </div>
   );

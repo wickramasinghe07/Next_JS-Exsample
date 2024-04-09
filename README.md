@@ -62,7 +62,15 @@ Routing
     -Nested and Dynamic Routes
 
 
-    
+Material UI, 
+
+the world's most popular React UI framework.
+
+    Material UI is an open-source React component library that implements Google's Material Design. It's comprehensive and can be used in production out of the box.
+
+Install Material UI, the world's most popular React UI framework.
+        
+    npm install @mui/material @emotion/react @emotion/styled    
 
 
 

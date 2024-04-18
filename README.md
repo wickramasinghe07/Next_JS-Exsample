@@ -69,8 +69,20 @@ the world's most popular React UI framework.
     Material UI is an open-source React component library that implements Google's Material Design. It's comprehensive and can be used in production out of the box.
 
 Install Material UI, the world's most popular React UI framework.
+
+     npm install @mui/material @emotion/react @emotion/styled 
+
+
+Exsample 
+
+    01.Home Page
+
+    ![Home](https://github.com/wickramasinghe07/Next_JS-Tute/assets/102098023/d9dbc7c6-62e2-44a4-a08e-f789748b37a7)
+
+
+    
         
-    npm install @mui/material @emotion/react @emotion/styled    
+      
 
 
 

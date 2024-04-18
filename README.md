@@ -77,7 +77,7 @@ Exsample
 
     01.Home Page
 
-![Home](https://github.com/wickramasinghe07/Next_JS-Tute/assets/102098023/839b098a-744f-4a13-a389-3525d63adef1)
+    ![Screenshot 2024-04-18 160757](https://github.com/wickramasinghe07/Next_JS-Tute/assets/102098023/13e4361d-dd3a-4628-96c7-b7c15ecee0e1)
 
 
     

@@ -76,8 +76,14 @@ Install Material UI, the world's most popular React UI framework.
 Exsample 
 
     01.Home Page
+![WhatsApp Image 2024-04-29 at 11 45 30_9375721f](https://github.com/wickramasinghe07/Next_JS-Tute/assets/102098023/2843854d-ac6b-4497-b6e5-bf470b9459e7)
 
-![Screenshot 2024-04-18 160757](https://github.com/wickramasinghe07/Next_JS-Tute/assets/102098023/13e4361d-dd3a-4628-96c7-b7c15ecee0e1)
+    02.HotelHomePage
+
+![HotelHomePage](https://github.com/wickramasinghe07/Next_JS-Tute/assets/102098023/aebab165-40ec-4ed7-a69b-b27218563775)
+
+        Background Image
+![HotelHomePage2](https://github.com/wickramasinghe07/Next_JS-Tute/assets/102098023/f9d61163-9f75-4d6f-8475-61a7b0f340cd)
 
 
     

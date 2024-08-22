@@ -116,6 +116,7 @@ enums: A special class that specifies the constant variables.
 classes: Used to store different data type values in the form of key-value pairs.
 •
 Interface: These represent the basic syntax and blueprint that an entity must adhere to.
+
 2.
 Explain the behavior of arrays in TypeScript.
 The arrays defined in typescript are different from JavaScript and they also behave differently from JavaScript arrays. In typescript, the arrays are defined by specifying the static data types and can only store the multiple values of a single kind of data type.
@@ -123,6 +124,7 @@ Example:
 const typedArray1:number[] = [1, 23, 28, 56]; console.log(typedArray1); // 1, 23, 28, 56
 const typedArray2:number[] = [1, 23, 28, 56, "GeeksforGeeks"]; console.log(typedArray2);
 // Throws an error: Type 'string' is not assignable to type 'number'.
+
 3.
 In how many ways we can declare variables in TypeScript?
 In TypeScript, there are three ways in which we can declare variables:
